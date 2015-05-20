@@ -1,0 +1,8 @@
+print "Do yo like cows? yes or no (case sensetive"
+cow = str(raw_input())
+if cow == "no":
+	print "But its organic"
+elif cow == "yes":
+	print "Woher ist das fleish"
+else:
+	print "there is only one direction and you didn't follow it smh"
