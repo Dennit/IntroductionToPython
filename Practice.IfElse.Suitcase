@@ -1,0 +1,5 @@
+suitcase = float(input("how much does your suitcase weigh?"))
+if suitcase > 50:
+	print ("Pay additional $50")
+else:
+	print ("enjoy your flight")
