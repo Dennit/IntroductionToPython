@@ -1,0 +1,13 @@
+import random
+from random import randint
+
+
+print "press x to roll"
+roll = str(raw_input())
+
+rngjesus = randint(1,6)
+if roll ==  "x":
+	print rngjesus
+
+else:
+	print "cmon man"
