@@ -1,0 +1,6 @@
+temp_morning = 40
+while (temp_morning < 88):
+	print "The temp is", temp_morning ,"stay in class"
+	temp_morning = temp_morning + 5
+else:
+	print ("when temp is 88+ leave at 2:30")
