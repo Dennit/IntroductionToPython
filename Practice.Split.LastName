@@ -1,1 +1,5 @@
+print "what is you first, middle, and last name?"
+x = raw_input()
+q,w,r = x.split(" ")
 
+print r
