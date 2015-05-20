@@ -1,0 +1,10 @@
+vowels = ('a', 'e', 'i', 'o', 'u')
+def response(word):
+	if word[0] in vowels:
+		return  word + word[0] +"way"
+	else:
+		return word[1:] + word[0] + "ay"
+
+print "Type a word you would like be seen in Pig Latin (Lowercase Only)"
+text = raw_input()
+print response(text)
